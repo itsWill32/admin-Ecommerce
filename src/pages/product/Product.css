@@ -1,0 +1,122 @@
+.main-Product {
+  flex: 4 !important;
+  padding: 20px !important;
+}
+
+.titleCont-Product {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+.container-Product{
+    display: flex !important;
+}
+
+.stats-Product, .dataContainer-Product{
+    flex: 1 !important;
+}
+
+.dataContainer-Product{
+    padding: 20px !important;
+    margin: 20px !important;
+    -webkit-box-shadow: 0px 0px 10px -3px #000000 !important; 
+    box-shadow: 0px 0px 10px -3px #000000 !important;
+}
+
+.media-Product{
+    display: flex !important;
+    align-items: center !important;
+}
+
+.img-Product{
+    width: 40px !important;
+    height: 40px;
+    border-radius: 50% !important;
+    object-fit: cover !important;
+    margin-right: 20px !important;
+}
+
+.name-Product{
+    font-weight: 600 !important;
+}
+
+.dataStats-Product{
+    margin-top: 10px ;
+}
+
+.infoItem-Product{
+    width: 150px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.value-Product{
+    font-weight: 300 !important;
+}
+
+.bottom-Product{
+    padding: 20px !important;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 10px -3px #000000 !important; 
+    box-shadow: 0px 0px 10px -3px #000000 !important;
+}
+
+.form-Product{
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.data-Product{
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.id-Product{
+    margin-right: 5px !important;
+}
+
+.data-Product>label{
+    margin-bottom: 15px !important;
+    color: gray !important;
+}
+
+.data-Product>input{
+    margin-bottom: 15px !important;
+    border: none !important;
+    padding: 5px !important;
+    border-bottom: 1px solid gray !important;
+}
+
+.data-Product>select{
+    margin-bottom: 15px !important;
+}
+
+.mediaUpload-Product{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-around !important;
+}
+
+.upload-Product{
+    display: flex !important;
+    align-items: center !important;
+}
+
+.imgUpload-Product{
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 10px !important;
+    object-fit: cover !important;
+    margin-right: 20px !important;
+}
+
+.button-Product{
+    border: none !important;
+    padding: 5px !important;
+    border-radius: 5px !important;
+    background-color: rgb(111, 111, 111) !important;
+    color: white !important;
+    font-weight: 600 !important;
+    cursor: pointer !important ;
+}

@@ -1,0 +1,57 @@
+.main-UL {
+    flex: 4;
+    padding: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+  }
+  
+  .userInfo-UL {
+    display: flex;
+    align-items: center;
+  }
+  
+  .userImg-UL {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .editB-UL {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #3bb077;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .editB-UL:hover {
+    background-color: #2a904f;
+  }
+  
+  .deleteB-UL {
+    color: red;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .deleteB-UL:hover {
+    color: darkred; 
+  }
+  
+  .MuiDataGrid-root {
+    background-color: white; 
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  }
+  
+  .MuiDataGrid-footerContainer {
+    justify-content: center; 
+    padding: 10px;
+  }
+  

@@ -1,0 +1,61 @@
+.main-WSmall{
+    flex: 1;
+    -webkit-box-shadow: 0px 0px 10px -3px #000000; 
+    box-shadow: 0px 0px 10px -3px #000000;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.title-WSmall{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.list-WSmall{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.itemL-Wsmall{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.img-WSmall{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.userContainer-WSmall{
+    display: flex;
+    flex-direction: column;
+}
+
+.user-WSmall{
+    font-weight: 600;
+}
+
+.userTitle-WSmall{
+    font-weight: 300;
+}
+
+.button-WSmall{
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px; 
+    background-color: #eeeef7;
+    color: #555;
+    cursor: pointer;
+}
+
+.icon-WSmall{
+    font-size: 16px;
+    margin-right: 5px;
+}

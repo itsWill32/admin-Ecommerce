@@ -1,0 +1,59 @@
+.main-WLarge{
+    flex: 2;
+    -webkit-box-shadow: 0px 0px 10px -3px #000000; 
+    box-shadow: 0px 0px 10px -3px #000000;
+    padding: 20px;
+}
+
+.title-WLarge{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.tableWLarge{
+    width: 100%;
+    border-spacing: 20px;
+}
+
+.thWLarge{
+    text-align: left;
+}
+
+.client-WLarge{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.userImg-WLarge{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.date-WLarge, .amount-WLarge{
+    font-weight: 300;
+}
+
+.button-WLarge{
+    padding: 5px 7px;
+    border: none;
+    border-radius: 10px;
+}
+
+.button-WLarge.aprovado{
+    background-color: #e5faf2;
+    color: #3bb007;
+}
+
+.button-WLarge.rechazado{
+    background-color: #fff0f1;
+    color: #d95087;
+}
+
+.button-WLarge.pendiente{
+    background-color: #ebf1fe;
+    color: #2a7ade;
+}

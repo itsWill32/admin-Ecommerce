@@ -1,0 +1,62 @@
+.main-Login {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://media.gq.com.mx/photos/65b40907092d12ff5bff2124/16:9/w_2560%2Cc_limit/Nike_Dunk_Low_Brazil.jpg")
+        center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container-Login {
+    width: 25%;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  .title-Login {
+    font-size: 24px;
+    font-weight: 300;
+  }
+  
+  .form-Login {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-Login {
+    flex: 1;
+    min-width: 40%;
+    margin: 10px 0;
+    padding: 10px;
+  }
+  
+  .button-Login {
+    width: 40%;
+    border: none;
+    padding: 15px 20px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 10px !important;
+  }
+  
+  .button-Login:disabled{
+    color: green;
+    cursor: not-allowed;
+  }
+  
+  .link-Login {
+    margin: 5px 0px;
+    font-size: 12px;
+    text-decoration: underline;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+  }
+  
